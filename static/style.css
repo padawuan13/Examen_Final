@@ -27,7 +27,7 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra los campos y botones */
+    align-items: center;
 }
 
 form label {
@@ -49,7 +49,7 @@ form input {
 button {
     margin-top: 20px;
     padding: 10px 20px;
-    font-size: 14px; /* Botón más pequeño */
+    font-size: 14px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -59,7 +59,7 @@ button {
 
 button.small-button {
     padding: 8px 16px;
-    font-size: 12px; /* Botón reducido */
+    font-size: 12px;
 }
 
 button:hover {
@@ -81,36 +81,35 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Espaciado entre los botones */
+    gap: 20px;
     margin-top: 50px;
 }
 
 button.menu-button {
-    width: 200px !important; /* Forzar el ancho */
-    height: 200px !important; /* Forzar el alto */
-    font-size: 24px !important; /* Tamaño del texto */
-    font-weight: bold; /* Texto en negrita */
-    border: none; /* Sin bordes */
-    border-radius: 10px; /* Esquinas redondeadas */
-    color: white; /* Color del texto */
-    cursor: pointer; /* Cambiar cursor al pasar */
-    text-align: center; /* Centrar texto */
+    width: 200px !important;
+    height: 200px !important;
+    font-size: 24px !important;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
 }
 
 button.btn-ejercicio1 {
-    background-color: #cf42f5; /* Color morado */
+    background-color: #cf42f5;
 }
 
 button.btn-ejercicio2 {
-    background-color: #49f542; /* Color verde */
+    background-color: #49f542;
 }
 
 button.menu-button:hover {
-    transform: scale(1.1); /* Efecto de agrandamiento al pasar el cursor */
-    transition: transform 0.3s; /* Transición suave */
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
-/* Estilos para el formulario de inicio de sesión */
 form {
     display: flex;
     flex-direction: column;
@@ -150,7 +149,6 @@ button.small-button:hover {
     background-color: #0056b3;
 }
 
-/* Estilos para mensajes */
 .results p {
     font-size: 16px;
     color: #333;
