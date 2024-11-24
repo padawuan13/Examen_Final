@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los campos y botones */
+}
+
+form label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px; /* Botón más pequeño */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.small-button {
+    padding: 8px 16px;
+    font-size: 12px; /* Botón reducido */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.results h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaciado entre los botones */
+    margin-top: 50px;
+}
+
+button.menu-button {
+    width: 200px !important; /* Forzar el ancho */
+    height: 200px !important; /* Forzar el alto */
+    font-size: 24px !important; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    border: none; /* Sin bordes */
+    border-radius: 10px; /* Esquinas redondeadas */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    text-align: center; /* Centrar texto */
+}
+
+button.btn-ejercicio1 {
+    background-color: #cf42f5; /* Color morado */
+}
+
+button.btn-ejercicio2 {
+    background-color: #49f542; /* Color verde */
+}
+
+button.menu-button:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el cursor */
+    transition: transform 0.3s; /* Transición suave */
+}
+
+/* Estilos para el formulario de inicio de sesión */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button.small-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.small-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para mensajes */
+.results p {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+
